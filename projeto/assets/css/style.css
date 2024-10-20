@@ -1,0 +1,99 @@
+.main-bg {
+    background-image: url(https://projectzomboid.com/blog/content/uploads/2020/01/zombie-survival-1-scaled.jpg);
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: 30%;
+    background-size: cover;  
+}
+
+.main-bg {
+    min-height: 100vh;
+    min-width: 100vh;
+}
+
+.top-bar2 {
+    background-color: #000000;
+    /* box shadow nao funcionando!!!!!!!!! */
+}
+
+
+.c-top-bar--svg {
+    fill: #FFFFFF;
+    width: 12px;
+    fill-rule: evenodd;
+}
+
+.c-top-bar--svg:hover {
+    fill: red;
+
+}
+.top-bar {
+    font-size: 14px;
+    margin-left: 35vh;
+    margin-right: 35vh;
+    padding-top: 0.7rem;
+    padding-bottom: 0.7rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.top-bar a:hover {
+    cursor: pointer;
+    color: red;
+}
+
+.build-details {
+    display: flex;
+    gap: 12px;
+    color: #adadad;
+}
+.follow-us {
+    display: flex;
+    gap: 12px;
+    color: #adadad;
+}
+
+.follow-us {
+    margin-top: 3px;
+}
+
+.header {
+    padding-top: 12px;
+}
+
+.logopro {
+    width: 10rem;
+    margin-right: 1rem;
+    margin-left: -2rem;
+}
+
+.logoindie {
+    width: 5rem;
+    margin-left: 3rem;
+}
+
+.nav-header ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 35vh;
+    margin-right: 35vh;
+}
+
+.nav-header a {
+    color:  #ffff;
+    padding: 2rem 2rem;
+    font-size: 25px;
+    font-family: 'Bebas Neue', sans-serif, cursive;
+}
+
+.nav-header li:hover {
+    cursor: pointer;
+    background: url('/projeto/assets/images/bloodactive.png') no-repeat;
+    background-size: 5rem;
+    background-position: center;
+}
