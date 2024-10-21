@@ -1,0 +1,100 @@
+
+.top-bar2 {
+    background-color: #000000;
+    box-shadow: rgba(0, 0, 0, 0.17) 0px 12px 13px;
+}
+
+
+.c-top-bar--svg {
+    fill: #FFFFFF;
+    width: 12px;
+    fill-rule: evenodd;
+}
+
+.c-top-bar--svg:hover {
+    fill: rgb(201, 7, 7);
+
+}
+.top-bar {
+    font-size: 14px;
+    margin-left: 35vh;
+    margin-right: 35vh;
+    padding-top: 0.7rem;
+    padding-bottom: 0.7rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.top-bar a:hover {
+    cursor: pointer;
+    color: rgb(201, 7, 7);
+}
+
+.build-details {
+    display: flex;
+    gap: 12px;
+    color: #adadad;
+}
+.follow-us {
+    display: flex;
+    gap: 12px;
+    color: #adadad;
+}
+
+.follow-us {
+    margin-top: 3px;
+}
+
+
+
+.header {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(180deg, black, transparent);
+    margin-top: -1rem
+}
+
+.logopro {
+    width: 10rem;
+    margin-right: 6rem;
+    margin-left: -1rem;
+}
+
+.logoindie {
+    margin-right: -1rem;
+    margin-left: 11rem;
+    width: 5rem;
+
+}
+
+.nav-header ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 35vh;
+    margin-right: 35vh;
+}
+
+.nav-header a {
+    color:  #ffff;
+    padding: auto;
+    font-size: 1.3rem;
+    font-family: 'Bebas Neue', sans-serif, cursive;
+    margin: 20px;
+    letter-spacing: 0.1rem;
+}
+
+.nav-header li:hover {
+    display: flex;
+    text-align: center;
+    cursor: pointer;
+    background: url('/projeto/assets/images/bloodactive.png') no-repeat;
+    background-size: 4rem;
+    background-position: center;
+}
