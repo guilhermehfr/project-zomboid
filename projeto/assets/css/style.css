@@ -203,3 +203,19 @@
     margin-left: -6.3rem;
 
 }
+
+
+img.steam-logo-content, img.apple, img.windows {
+    max-width: 2rem;
+    max-height: 5rem;
+}
+
+/* img.apple {
+
+}
+
+img.windows {
+
+} */
+
+/* ADICIONAR IMAGES NO AFTER DOS ELEMENTOS:: IDEIA
